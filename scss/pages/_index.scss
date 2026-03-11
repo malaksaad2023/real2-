@@ -1,11 +1,10 @@
 @import '../components/product_card';
-@import '../helpers/mixins';
+@import 'helpers/mixins';
 
 
 .hero {
     @include flexbox(center, center, column);
-    // @include bg-img(url("/assets/images/background/hero.jpg"));
-    background-image: url(/assets/images/background/hero.jpg);
+    @include bg-img(url("/assets/images/background/hero.jpg"));
     position: relative;
     height: 680px;
 

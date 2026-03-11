@@ -3,7 +3,7 @@
 
 .hero {
     @include flexbox(center, center, column);
-    @include bg-img(url("/assets/images/background/hero.jpg"));
+    @include bg-img(url("/real2-/assets/images/background/hero.jpg"));
     position: relative;
     height: 680px;
 
@@ -255,7 +255,7 @@
 
 
 .testimonials {
-    background-image: url(/assets/images/background/test-bg.jpg);
+    background-image: url('/real2-/assets/images/background/test-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

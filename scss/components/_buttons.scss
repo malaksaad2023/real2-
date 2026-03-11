@@ -1,0 +1,35 @@
+%btn {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: cairo;
+    border: none;
+}
+
+
+
+
+
+.btn-primary {
+    background-color: $main-color;
+    color: $secondary-color;
+    width: 100%;
+    @extend %btn;
+
+    &:hover {
+        background-color: darken($main-color, 10%);
+    }
+}
+
+.btn-danger {
+    background-color: $secondary-color;
+    color: $main-color;
+    width: 100%;
+    @extend %btn;
+    &:hover {
+            background-color: darken($secondary-color , 10%);
+
+    }
+
+
+}

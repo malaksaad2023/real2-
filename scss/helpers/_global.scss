@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background-color;
+    font-family: cairo;
+    margin-bottom: 0;
+}
+
+  a {
+                    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .section-title {
+    font-size: 35px;
+    color: $main-color;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 70px;
+      height: 2px;
+      background-color: $main-color;
+      right: -78px;
+      top: 50%;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      width: 70px;
+      height: 2px;
+      background-color: $main-color;
+      left: -78px;
+      top: 50%;
+    }
+
+  }
+
+  .section-desc {
+    text-align: center;
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+    color: rgb(13, 83, 13);
+
+  }

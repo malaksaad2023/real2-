@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نخبة العقار</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+
+  <link rel="stylesheet" href="scss/style.css">
+  <link rel="icon" href="assets/images/background/favicon-ico.png">
+
+</head>
+
+<body>
+  <header>
+    <nav class="container ">
+      <div class="logo">
+        <a href="index.html">
+                    <img width="80px" height="80px" src="assets/images/background/logo-svg (1).png" alt="">
+
+        </a>
+      </div>
+
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="single-product.html"> العقارات</a></li>
+        <li><a href="">حول الشركة</a></li>
+        <li><a href="single-blog.html">المدونة</a></li>
+        <li><a href="">اتصل بنا</a></li>
+      </ul>
+
+      <div class="icons">
+        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+
+      </div>
+
+      <i class="fa-solid fa-chart-bar mobile-nav-icon" id="mobile-nav-icon"></i>
+    </nav>
+  </header>
+
+
+  <aside id="aside">
+    <div class="mobile-menu">
+      <img width="230px" class="logo" src="assets/images/logo.svg.png" alt="">
+
+      <ul>
+        <li><a href="">الرئيسية</a></li>
+        <li><a href=""> العقارات</a></li>
+        <li><a href="">حول الشركة</a></li>
+        <li><a href="">المدونة</a></li>
+        <li><a href="">اتصل بنا</a></li>
+      </ul>
+
+      <form action="">
+        <input type="text">
+      </form>
+
+      <div class="icons">
+        <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+
+      </div>
+
+      <div class="cta">
+        <a href="#" class="btn btn-primary">استفسر </a>
+        <a href="#" class="btn btn-danger"> اقرأ المزيد</a>
+
+      </div>
+
+    </div>
+  </aside>
+
+  <section>
+    <div  class="hero">
+      <div class="overlay"></div>
+      <div class="hero-info container">
+        <h1>نخبة العقار… حيث تبدأ استثماراتك بثقة</h1>
+        <p>لأننا نؤمن أن العقار ليس مجرد مكان… بل مستقبل.
+          نقدم لك فرصًا مدروسة تجمع بين الموقع المميز والقيمة الحقيقية.
+          معنا تبدأ رحلتك بثقة وتنتهي باستثمار ناجح.</p>
+
+
+
+        <form action="" class="container hero-form">
+          <div class="search-area">
+            <div class="search">
+              <select name="" id="">
+                <option value="" disabled selected>اختر نوع العقار</option>
+                <option value="">شقة</option>
+                <option value="">فيلا</option>
+                <option value="">دوبلكس</option>
+                <option value="">محل تجاري</option>
+                <option value="">مكتب عقاري</option>
+              </select>
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="search">
+              <input type="text" placeholder="شراء – إيجار – استثمار">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="search">
+              <input type="text" placeholder="المدينة أو المنطقة المطلوبة">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="search">
+              <input type="text" placeholder="اكتب ميزانيتك التقريبية">
+              <i class="fa-solid fa-wallet"></i>
+            </div>
+            <div class="search">
+              <input type="text" placeholder="عدد الغرف أو المساحة بالمتر">
+              <i class="fa-solid fa-ruler-combined"></i>
+            </div>
+            <div class="search">
+              <input width="100%" class="btn-primary btn-hero" type="submit" value="ابحث عن العقار">
+            </div>
+          </div>
+
+        </form>
+
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container inner-about">
+
+      <div class="right-about">
+        <h2>خبرة تصنع الفرق</h2>
+        <p>نخبة العقار تجمع بين الخبرة الطويلة والرؤية الاستراتيجية، لنقدّم لك عقارات مختارة بعناية فائقة.
+          نحن لا نوفر مجرد عقار، بل استثمار مستدام وثقة متبادلة، مع خدمة شخصية تضع احتياجاتك في المقام الأول.
+          اختيارك لنا يعني التميز والاحترافية في كل خطوة من رحلتك العقارية.</p>
+
+        <ul>
+          <li>خبرة طويلة في السوق العقاري تضمن لك قرارات استثمارية سليمة.</li>
+          <li>اختيارات عقارية مختارة بعناية وفق أعلى معايير الجودة والموقع.</li>
+          <li>خدمة شخصية واستشارات مخصصة لكل عميل حسب احتياجاته.</li>
+          <li>شفافية ومصداقية كاملة في كل التعاملات والصفقات.</li>
+          <li>استثمارات آمنة ومربحة مع متابعة مستمرة لتفاصيل العقار.</li>
+          <li>حلول مبتكرة ومرنة لتسهيل عملية الشراء أو الإيجار.</li>
+        </ul>
+        <button class=" btn btn-primary">تعرف علي المزيد</button>
+      </div>
+
+      <div class="left-about">
+        <img src="assets/images/background/about.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+    <h2 class="section-title">اكتشف عالم العقارات</h2>
+    <p class="section-desc">نوفر لك مجموعة متنوعة من أنواع العقارات التي تلبي مختلف الاحتياجات والتطلعات.
+      سواء كنت تبحث عن سكن مريح، مساحة تجارية، أو فرصة استثمارية واعدة.
+      نعرض لك اختيارات مدروسة بعناية تجمع بين الموقع المميز والقيمة الحقيقية.
+      تصفح الكاردات لاكتشاف التفاصيل والمزايا لكل نوع عقار.
+      عقارك المثالي أصبح أقرب مما تتخيل.</p>
+
+    <div class="container all-products">
+
+
+      <a href="single-product.html">
+            <div class="product">
+        <div class="image">
+          <img src="assets/images/all-products/real1.jpg" alt="">
+        </div>
+
+        <div class="info">
+          <span class="category">منزل 3 أدوار</span>
+          <h3>منزل حديث للبيع</h3>
+          <span class="location">التسعين الجنوبي – القاهرة الجديدة – مصر</span>
+          <hr>
+
+          <ul class="props">
+            <li>
+              <span>غرفة:</span>
+              <span><i class="fa-solid fa-bed"></i>3</span>
+            </li>
+
+
+            <li>
+              <span>حمام:</span>
+              <span><i class="fa-solid fa-bath"></i>2</span>
+            </li>
+
+
+            <li>
+              <span>مسبح:</span>
+              <span><i class="fa-solid fa-person-swimming"></i> متوفر</span>
+            </li>
+          </ul>
+
+          <button class=" btn-primary send">تفاصيل العقار</button>
+
+        </div>
+      </div>
+
+      </a>
+
+
+     <a href="single-product.html">
+       <div class="product">
+        <div class="image">
+          <img src="assets/images/all-products/real2.jpg" alt="">
+        </div>
+
+        <div class="info">
+          <span class="category">عمارة 7 أدوار</span>
+          <h3>منزل حديث للبيع</h3>
+
+          <span class="location">شارع فيصل – الجيزة – مصر</span>
+          <hr>
+
+          <ul class="props">
+            <li>
+              <span>غرفة:</span>
+              <span><i class="fa-solid fa-bed"></i>4</span>
+            </li>
+
+
+            <li>
+              <span>حمام:</span>
+              <span><i class="fa-solid fa-bath"></i>1</span>
+            </li>
+
+
+            <li>
+              <span>مسبح:</span>
+              <span><i class="fa-solid fa-person-swimming"></i>غير متوفر</span>
+            </li>
+
+
+
+          </ul>
+
+          <button class=" btn-primary send">تفاصيل العقار</button>
+
+        </div>
+      </div>
+     </a>
+
+
+
+     <a href="single-product.html">
+         <div class="product">
+        <div class="image">
+          <img src="assets/images/all-products/real3.jpg" alt="">
+        </div>
+
+        <div class="info">
+          <span class="category">منزل دورين</span>
+          <h3>منزل حديث للبيع</h3>
+          <span class="location">شارع الشيخ زايد – دبي – الإمارات العربية </span>
+          <hr>
+
+          <ul class="props">
+            <li>
+              <span>غرفة:</span>
+              <span><i class="fa-solid fa-bed"></i>5</span>
+            </li>
+
+
+            <li>
+              <span>حمام:</span>
+              <span><i class="fa-solid fa-bath"></i>4</span>
+            </li>
+
+
+            <li>
+              <span>مسبح:</span>
+              <span><i class="fa-solid fa-person-swimming"></i> متوفر</span>
+            </li>
+
+
+
+          </ul>
+
+          <button class=" btn-primary send">تفاصيل العقار</button>
+
+
+        </div>
+      </div>
+     </a>
+
+
+      <a href="single-product.html">
+        <div class="product">
+        <span class="offer">عرض خاص</span>
+
+        <div class="image">
+          <img src="assets/images/all-products/real4.jpg" alt="">
+        </div>
+
+        <div class="info">
+          <span class="category">فيلا دورين</span>
+          <h3>منزل حديث للبيع</h3>
+          <span class="location">شارع الملك فهد – الرياض – السعودية</span>
+          <hr>
+
+          <ul class="props">
+            <li>
+              <span>غرفة:</span>
+              <span><i class="fa-solid fa-bed"></i>7</span>
+            </li>
+
+
+            <li>
+              <span>حمام:</span>
+              <span><i class="fa-solid fa-bath"></i>3</span>
+            </li>
+
+
+            <li>
+              <span>مسبح:</span>
+              <span><i class="fa-solid fa-person-swimming"></i> متوفر</span>
+            </li>
+
+          </ul>
+
+          <button class=" btn-primary send">تفاصيل العقار</button>
+
+
+        </div>
+      </div>
+      </a>
+
+    </div>
+
+  </section>
+
+  <section class="gallery">
+    <h2 class="section-title">
+      أعمالنا المميزة
+    </h2>
+    <p class="section-desc">
+      مشروعات نفخر بها وتم تنفيذها بأعلى معايير الجودة والاحترافية.
+      رؤيتنا تتحول إلى واقع يحقق قيمة حقيقية لعملائنا.
+    </p>
+    <div class="all-images container">
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img1.jpg">
+          <img src="assets/images/gallery/img1.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img2.jpg">
+          <img src="assets/images/gallery/img2.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img3.jpg">
+          <img src="assets/images/gallery/img3.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img4.jpg">
+          <img src="assets/images/gallery/img4.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img5.jpg"">
+          <img src="assets/images/gallery/img5.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img6.jpg">
+          <img src="assets/images/gallery/img6.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img7.jpg">
+          <img src="assets/images/gallery/img7.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img8.jpg">
+          <img src="assets/images/gallery/img8.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img9.webp">
+          <img src="assets/images/gallery/img9.webp" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img10.jpg">
+          <img src="assets/images/gallery/img10.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img11.jpg">
+          <img src="assets/images/gallery/img11.jpg" alt="">
+        </a>
+      </div>
+      <div class="image">
+        <a data-fancybox="gallery" href="assets/images/gallery/img12.jpg">
+          <img src="assets/images/gallery/img12.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2 class="section-title title">آراء النخبة</h2>
+
+
+    <div class="container all-testimonial">
+      <div class="box">
+        <div class="image">
+          <img src="./assets/images/clients/client1.jpg" alt="">
+        </div>
+        <h3>محمد عبد الرحمن</h3>
+        <p class="position">محامي</p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p>تعامل راقٍ ومصداقية عالية من أول خطوة حتى إتمام التعاقد.
+          نخبة العقار اسم يعكس فعلاً الجودة والاحترافية ويهتم بمصلحة العميل.</p>
+
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="./assets/images/clients/client2.jpg" alt="">
+        </div>
+        <h3>منى حسين</h3>
+        <p class="position">مدرسة</p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p>وجدت ما كنت أبحث عنه بسهولة ووضوح دون أي تعقيد.
+          فريق محترف يهتم بالتفاصيل ويضع مصلحة العميل أولًا,والموظفين مميزين.</p>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="./assets/images/clients/client3.jpg" alt="">
+        </div>
+        <h3>خالد مصطفى</h3>
+        <p class="position">طبيب</p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p>تجربة مريحة وثقة كاملة في كل مرحلة من مراحل الشراء.
+          أنصح بالتعامل مع نخبة العقار لكل من يبحث عن الأمان والتميز.</p>
+
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="./assets/images/clients/client4.jpg" alt="">
+        </div>
+        <h3>أحمد السيد</h3>
+        <p class="position">صيدلي</p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p>سرعة في الإنجاز وشفافية في المعلومات وأسعار واضحة.
+          نخبة العقار كانت الاختيار الصحيح بلا تردد.</p>
+
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="./assets/images/clients/client5.jpg" alt="">
+        </div>
+        <h3>عمر حسان</h3>
+        <p class="position">محاسب</p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p>احترافية واضحة في التعامل وحرص حقيقي على تلبية احتياجاتي.
+          تجربة مميزة تؤكد أن نخبة العقار خيار يعتمد عليه.</p>
+
+      </div>
+
+      <div class="box ">
+        <div class="image">
+          <img src="./assets/images/clients/client6.jpg" alt="">
+        </div>
+        <h3>سارة محمود</h3>
+        <p class="position">صاحبة شركة</p>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p>لمست شفافية واحترامًا للوقت من بداية التواصل حتى إتمام الصفقة.
+          نخبة العقار تقدم قيمة حقيقية وتجربة تستحق الثقة.
+        </p>
+
+      </div>
+    </div>
+
+
+
+
+
+    </div>
+  </section>
+
+
+  <section class="parteners">
+    <h2 class="section-title">
+      شركاؤنا في النجاح
+    </h2>
+    <p class="section-desc">
+      نعتز بثقة عملائنا التي كانت وما زالت أساس تميزنا واستمرارنا.
+      قصص نجاح حقيقية وتجارب ملهمة تعكس التزامنا بالجودة وتحقيق التطلعات.
+    </p>
+    <div class="container logos">
+      <div class="image">
+        <img width="190" src="assets/images/parteners/الفهد.jpg" alt="">
+      </div>
+      <div class="image">
+        <img width="160" height="150" src="assets/images/parteners/الباشا.jpg" alt="">
+      </div>
+      <div class="image">
+        <img width="150" height="120" src="assets/images/parteners/الرواد.png" alt="">
+      </div>
+      <div class="image">
+        <img width="150" src="assets/images/parteners/الكفاح.png" alt="">
+      </div>
+      <div class="image">
+        <img width="150" src="assets/images/parteners/المقاولون.png" alt="">
+      </div>
+      <div class="image">
+        <img width="150" height="150" src="assets/images/parteners/ساند.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="blog">
+    <h2 class="section-title">
+      رؤية النخبة
+    </h2>
+    <p class="section-desc">
+      مساحة معرفية تقدم تحليلات ورؤى احترافية عن السوق العقاري، مبنية على خبرة وفهم عميق لاحتياجات العملاء.
+      نشاركك أحدث الاتجاهات والنصائح الذكية لمساعدتك على اتخاذ قرارات عقارية واثقة ومدروسة.
+    </p>
+
+    <div class="container all-blogs">
+
+      <a href="single-blog.html">
+        <div class="blog-card">
+          <div class="image">
+            <p class="blog-category">نصائح عقارية</p>
+
+            <img src="assets/images/blog/نصائح.jpg" alt="">
+          </div>
+          <div class="blog-info">
+            <h3>شقتك المثالية</h3>
+            <p>دليلك لاختيار الشقة اللي تناسب احتياجاتك وإمكانياتك.
+              نصائح مهمة تساعدك تاخد قرار صح من أول مرة.</p>
+            <hr>
+            <div class="blog-footer">
+              <div width="100%"> <button class="btn-primary btn-blog">تعرف علي المزيد</button>
+              </div>
+              <div class="author">
+                <span>أحمد الخالد</span>
+                <div class="author-img"> <img width="90px" src="assets/images/author/ahmed.jpg" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </a>
+
+      <a href="single-blog.html">
+        <div class="blog-card">
+          <div class="image">
+            <p class="blog-category">دليل المشتري</p>
+
+            <img src="assets/images/blog/الشراء.jpg" alt="">
+          </div>
+          <div class="blog-info">
+            <h3>أخطاء الشراء العقاري</h3>
+            <p>أخطاء شائعة ممكن تكلّفك وقت وفلوس.
+              اعرفها قبل ما تشتري وتجنب المخاطرة.وكن في أمان</p>
+            <hr>
+            <div class="blog-footer">
+              <div width="100%"> <button class="btn-primary btn-blog">تعرف علي المزيد</button>
+              </div>
+              <div class="author">
+                <span>سارة نوح</span>
+                <div class="author-img"> <img width="90px" src="assets/images/author/sara.jpg" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </a>
+
+      <a href="single-blog.html">
+        <div class="blog-card">
+          <div class="image">
+            <p class="blog-category">استثمار عقاري</p>
+            <img src="assets/images/blog/الاستثمار.jpg" alt="">
+          </div>
+          <div class="blog-info">
+            <h3>دليل المشتري</h3>
+            <p>هل العقار ما زال أفضل وسيلة للاستثمار؟
+              نستعرض المميزات وأفضل فرص النمو من أجل مستقبل مأمن لك.</p>
+            <hr>
+            <div class="blog-footer">
+              <div width="100%"> <button class="btn-primary btn-blog">تعرف علي المزيد</button>
+              </div>
+              <div class="author">
+                <span>محمد ياسر</span>
+                <div class="author-img"> <img width="90px" src="assets/images/author/mohamed.jpg" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </a>
+
+
+      <a href="single-blog.html">
+        <div class="blog-card">
+          <div class="image">
+            <p class="blog-category">تطوير عقاري</p>
+
+            <img src="assets/images/blog/تطوير.jpg" alt="">
+          </div>
+          <div class="blog-info">
+            <h3>مناطق واعدة</h3>
+            <p>تعرف على مناطق مرشحة لنمو قوي في المستقبل.
+              فرص استثمارية قبل ارتفاع الأسعار. لا تفوت فرصتك الذهبية.</p>
+            <hr>
+            <div class="blog-footer">
+              <div width="100%"> <button class="btn-primary btn-blog">تعرف علي المزيد</button>
+              </div>
+              <div class="author">
+                <span>نهى سمير</span>
+                <div class="author-img"> <img width="90px" src="assets/images/author/noha.jpg" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <footer class="footer">
+
+    <div class="contact container">
+      <div class="inner-contact">
+        <div>
+          <h5> العنوان:</h5>
+          <a href="">21 شارع التحرير، المهندسين، الجيزة، مصر</a>
+        </div>
+
+        <div>
+          <a href=""><i class="fa-solid fa-location-dot"></i></a>
+        </div>
+      </div>
+      <div class="inner-contact">
+        <div>
+          <h5>البريد الإليكتروني:</h5>
+          <a href="mailto:contact@nukhbatalakaar.com">contact@nukhbatalakaar.com</a>
+        </div>
+
+        <div>
+          <a href=""><i class="fa-regular fa-envelope-open"></i></a>
+        </div>
+      </div>
+      <div class="inner-contact">
+        <div>
+          <h5> تابعنا على:</h5>
+          <a href="">facebook.com/NukhbatAlAqaar</a>
+        </div>
+
+        <div>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container inner-footer">
+      <div class="footer-box">
+        <img class="logo" src="assets/images/background/footer-logo.png" alt="">
+        <h3>شركة نخبة العقار</h3>
+        <p>نخبة العقار شركة متخصصة في تقديم حلول عقارية متكاملة تشمل البيع والشراء والتسويق العقاري، مع التزام كامل
+          بالمصداقية والاحترافية لتحقيق أفضل تجربة لعملائنا.</p>
+      </div>
+
+      <div class="footer-box">
+        <h3>روابط سريعة</h3>
+
+        <ul>
+          <li><a href="">الرئيسية</a></li>
+          <li><a href="">من نحن</a></li>
+          <li><a href="">الخدمات</a></li>
+          <li><a href="single-blog.html">المدونة العقارية</a></li>
+          <li><a href="">آراء العملاء</a></li>
+          <li><a href="">تواصل معنا</a></li>
+        </ul>
+
+      </div>
+
+
+      <div class="footer-box">
+        <h3>خدماتنا</h3>
+
+        <ul>
+          <li><a href="single-product.html">بيع وشراء الوحدات العقارية</a></li>
+          <li><a href="">تسويق المشروعات العقارية</a></li>
+          <li><a href="">استشارات عقارية موثوقة</a></li>
+          <li><a href="">المدونة العقارية</a></li>
+          <li><a href="">إدارة وتسويق الأملاك</a></li>
+          <li><a href="">تحليل السوق العقاري</a></li>
+        </ul>
+
+      </div>
+
+
+      <div class="footer-box">
+        <h3>النشرة البريدية</h3>
+
+        <form action="">
+          <input type="text" placeholder="أدخل البريد الإليكتروني">
+          <button class="btn btn-danger">إرسال البيانات</button>
+
+          <div class="icons">
+            <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+  </script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

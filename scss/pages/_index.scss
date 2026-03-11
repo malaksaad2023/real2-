@@ -3,7 +3,7 @@
 
 .hero {
     @include flexbox(center, center, column);
-    @include bg-img(url("/assets/images/background/hero.jpg"));
+    @include bg-img(url("/assets/images/background/footer-background.jpg"));
     position: relative;
     height: 680px;
 

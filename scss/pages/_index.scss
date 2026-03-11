@@ -5,9 +5,9 @@
 .hero {
     @include flexbox(center, center, column);
     // @include bg-img(url("/assets/images/background/hero.jpg"));
+    background-image: url(/assets/images/background/hero.jpg);
     position: relative;
     height: 680px;
-    background-image: url("assets/images/background/hero.jpg");
 
     .overlay {
         position: absolute;

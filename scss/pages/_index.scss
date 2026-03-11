@@ -131,7 +131,8 @@
         right: 0;
         bottom: 0;
         content: "";
-background-image: url('https://raw.githubusercontent.com/malaksaad2023/real2-/main/assets/images/background/about-bg.png');        background-position: center;
+        background-image: url(/assets/images/background/about-bg.png);
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         z-index: -1;

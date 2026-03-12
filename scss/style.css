@@ -596,7 +596,7 @@ aside .cta {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("/assets/images/background/hero.jpg");
+  background-image: url("../assets/images/background/hero.jpg");
   background-color: #155c62;
   background-repeat: no-repeat;
   background-position: center;
@@ -722,7 +722,7 @@ aside .cta {
   right: 0;
   bottom: 0;
   content: "";
-  background-image: url("/assets/images/background/about-bg.png");
+  background-image: url("../assets/images/background/about-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -837,7 +837,7 @@ aside .cta {
 }
 
 .testimonials {
-  background-image: url(/assets/images/background/test-bg.jpg);
+  background-image: url("../assets/images/background/test-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

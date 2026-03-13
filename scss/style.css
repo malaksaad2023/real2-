@@ -59,13 +59,6 @@ img {
 
 .section-title {
   font-size: 2em;
-}
-@media (min-width: 768px) {
-  .section-title {
-    font-size: 18px;
-  }
-}
-.section-title {
   color: #155c62;
   text-align: center;
   width: -moz-fit-content;
@@ -91,12 +84,6 @@ img {
   left: -78px;
   top: 50%;
 }
-@media (max-width: 576px) {
-  .section-title{
-    font-size: 18px;
-  }
-}
-
 
 .section-desc {
   text-align: center;
@@ -108,7 +95,6 @@ img {
 
 .footer {
   overflow-x: hidden !important;
-  overflow-y: hidden !important;
 }
 .footer .contact {
   display: none;
@@ -870,7 +856,7 @@ aside .cta {
 }
 .testimonials .all-testimonial {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
   gap: 20px;
 }
 .testimonials .all-testimonial .box {

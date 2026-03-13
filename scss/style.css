@@ -43,8 +43,6 @@ body {
   background-color: beige;
   font-family: cairo;
   margin-bottom: 0;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
 }
 
 a {
@@ -61,6 +59,13 @@ img {
 
 .section-title {
   font-size: 2em;
+}
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 18px;
+  }
+}
+.section-title {
   color: #155c62;
   text-align: center;
   width: -moz-fit-content;
@@ -86,6 +91,12 @@ img {
   left: -78px;
   top: 50%;
 }
+@media (max-width: 768px) {
+  .section-title{
+    font-size: 18px;
+  }
+}
+
 
 .section-desc {
   text-align: center;
@@ -849,14 +860,12 @@ aside .cta {
 }
 
 .testimonials {
-  height: 100vh;
   background-image: url("/real2-/assets/images/background/test-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
   padding-top: 50px;
+  overflow-x: hidden !important;
   padding-bottom: 50px;
 }
 .testimonials .all-testimonial {

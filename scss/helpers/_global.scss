@@ -30,6 +30,10 @@ body {
 
   .section-title {
     font-size: 2em;
+     @include media-up(md) {
+      font-size: 18px;
+    }
+
     color: $main-color;
     text-align: center;
     width: fit-content;
@@ -54,6 +58,7 @@ body {
       top: 50%;
     }
 
+   
   }
 
   .section-desc {

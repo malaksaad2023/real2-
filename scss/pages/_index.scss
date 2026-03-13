@@ -261,14 +261,12 @@
 
 
 .testimonials {
-    height: 100vh;
     background-image: url('/real2-/assets/images/background/test-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
     padding-top: 50px;
+    overflow-x: hidden !important;
     padding-bottom: 50px;
 
     .all-testimonial {

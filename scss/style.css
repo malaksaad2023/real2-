@@ -59,13 +59,6 @@ img {
 
 .section-title {
   font-size: 2em;
-}
-@media (min-width: 768px) {
-  .section-title {
-    font-size: 18px;
-  }
-}
-.section-title {
   color: #155c62;
   text-align: center;
   width: -moz-fit-content;
@@ -91,12 +84,6 @@ img {
   left: -78px;
   top: 50%;
 }
-@media (max-width: 768px) {
-  .section-title{
-    font-size: 18px;
-  }
-}
-
 
 .section-desc {
   text-align: center;

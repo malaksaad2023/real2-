@@ -5,6 +5,7 @@
     @include flexbox(center, center, column);
     @include bg-img(url("/real2-/assets/images/background/hero.jpg"));
     position: relative;
+    overflow-x: hidden !important;
     height: 680px;
 
     .overlay {
@@ -122,6 +123,7 @@
 .about {
     position: relative;
     padding-top: 50px;
+    overflow-x: hidden !important;
     padding-bottom: 50px;
 
     &.about::before {
@@ -259,6 +261,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden !important;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -331,6 +334,7 @@
 .parteners {
     margin-top: 50px;
     margin-bottom: 50px;
+    overflow-x: hidden !important;
 
     .logos {
         display: grid;
@@ -360,6 +364,7 @@
     background-color: $primary-color;
     padding-top: 50px;
     padding-bottom: 20px;
+    overflow-x: hidden !important;
     
 
     .all-images {
@@ -394,6 +399,7 @@
 .blog {
     background-color: $primary-color;
     padding-top: 50px;
+    overflow-x: hidden !important;
     padding-bottom: 50px;
 
     .all-blogs {

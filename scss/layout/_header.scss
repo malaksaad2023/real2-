@@ -1,5 +1,6 @@
 header {
     background-color: $secondary-color;
+    overflow-x: hidden !important;
 
     nav {
         @include flexbox(space-between, center, row);

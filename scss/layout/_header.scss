@@ -1,6 +1,8 @@
 header {
     background-color: $secondary-color;
     overflow-x: hidden !important;
+    overflow-y: hidden !important;
+
 
     nav {
         @include flexbox(space-between, center, row);
@@ -50,18 +52,18 @@ header {
         }
 
         .icons {
-              display: none;
+            display: none;
             gap: 15px;
             font-size: 20px;
             transition: color 0.3s ease,
-            transform 0.3s ease;
+                transform 0.3s ease;
 
             @include media-up(md) {
                 @include flexbox(space-between, center, row);
 
             }
 
-          
+
 
             i {
                 color: $main-color;

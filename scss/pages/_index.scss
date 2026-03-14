@@ -261,7 +261,7 @@
 
 
 .testimonials {
-    background-image: url('/real2-/assets/images/background/test-bg.jpg');
+    background-image: url('/assets/images/background/test-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -271,7 +271,13 @@
 
     .all-testimonial {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(50vw, 1fr));
+
+        @include media-up(md) {
+            grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+
+        }
+
         gap: 20px;
 
         .box {

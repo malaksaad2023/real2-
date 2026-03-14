@@ -38,7 +38,10 @@ body {
     &::before {
       position: absolute;
       content: "";
-      width: 70px;
+      width: 50px;
+      @include media-up(md) {
+        width: 70px;
+      }
       height: 2px;
       background-color: $main-color;
       right: -78px;
@@ -47,7 +50,10 @@ body {
     &::after {
       position: absolute;
       content: "";
-      width: 70px;
+      width: 50px;
+       @include media-up(md) {
+        width: 70px;
+      }
       height: 2px;
       background-color: $main-color;
       left: -78px;

@@ -69,7 +69,14 @@ img {
 .section-title::before {
   position: absolute;
   content: "";
-  width: 70px;
+  width: 50px;
+}
+@media (min-width: 768px) {
+  .section-title::before {
+    width: 70px;
+  }
+}
+.section-title::before {
   height: 2px;
   background-color: #155c62;
   right: -78px;
@@ -78,7 +85,14 @@ img {
 .section-title::after {
   position: absolute;
   content: "";
-  width: 70px;
+  width: 50px;
+}
+@media (min-width: 768px) {
+  .section-title::after {
+    width: 70px;
+  }
+}
+.section-title::after {
   height: 2px;
   background-color: #155c62;
   left: -78px;
@@ -846,7 +860,7 @@ aside .cta {
 }
 
 .testimonials {
-  background-image: url("/real2-/assets/images/background/test-bg.jpg");
+  background-image: url("/assets/images/background/test-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -856,7 +870,14 @@ aside .cta {
 }
 .testimonials .all-testimonial {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(50vw, 1fr));
+}
+@media (min-width: 768px) {
+  .testimonials .all-testimonial {
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+  }
+}
+.testimonials .all-testimonial {
   gap: 20px;
 }
 .testimonials .all-testimonial .box {

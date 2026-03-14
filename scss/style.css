@@ -883,6 +883,7 @@ aside .cta {
 }
 .testimonials .all-testimonial {
   gap: 20px;
+  margin-bottom: 50px;
 }
 .testimonials .all-testimonial .box {
   background-color: rgb(238, 238, 159);
